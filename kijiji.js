@@ -60,9 +60,9 @@ kijiji.query(prefs, params, function(error, ads) {
   }
 });
 
-//Advertisement.find(function(err, ads) {
-//  console.log(ads);
-//});
+Advertisement.find(function(err, ads) {
+  console.log(ads);
+});
 
 var myMsg = new Email(
 { from: "duncan@duncanmcdowell.com", 
